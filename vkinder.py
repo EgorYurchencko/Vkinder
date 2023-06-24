@@ -3,7 +3,6 @@ from datetime import datetime
 import vk_api
 import sqlite3
 from vk_api.longpoll import VkLongPoll, VkEventType
-from Token import TOKEN
 
 # Функция для отправки сообщений
 def write_msg(user_id, message):
@@ -132,7 +131,7 @@ def calculate_user_popularity(user_id):
     return popularity
 
 # Получение токена от пользователя
-token = input('Token: ')
+token = input('Token: "vk1.a.dFPTQUwLYIMwYpjvLguO_H0OvbhoaNI2892KtSFVmQdhANLD6LsWfPFGGsDVAX1sSc7V3oVkELmJmD9_4f5oh4v3jZjf72LfomKjTX_ak3XmQ9nPVA51nawGHsiogC-bxRk6t9KlLdKRBD0YxwQ1GDvRNUP8ZbLkgJKiP-FpFX8lFCqlU2cshYFYUOuhG9eoAE79dbVAJ1jbOedMBYT4dg")
 
 
 # Авторизация VK API
