@@ -3,6 +3,7 @@ from datetime import datetime
 import vk_api
 import sqlite3
 from vk_api.longpoll import VkLongPoll, VkEventType
+from Token import TOKEN
 
 # Функция для отправки сообщений
 def write_msg(user_id, message):
